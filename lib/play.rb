@@ -37,10 +37,10 @@ end
 
 # Define your play method below
 def play(board)
-  turn(board) =0
-  while turn(board) < 9
-    turn(board)  1
-  end
+  turns = 0
+  while turns < 9
+    turns += 1
+    turn(board)
 end
 
 # ./bin/play
